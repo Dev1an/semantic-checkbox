@@ -4,7 +4,7 @@ Package.describe({
   // Brief, one-line summary of the package.
   summary: 'A template for semantic-ui checkboxes',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://Dev1an@github.com/Dev1an/semantic-checkbox',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -19,6 +19,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('semantic-checkbox');
+  api.use('devian:semantic-checkbox');
   api.addFiles('semantic-checkbox-tests.js');
 });
