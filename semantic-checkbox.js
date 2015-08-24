@@ -1,1 +1,3 @@
-// Write your package code here!
+Template.checkbox.onRendered(function() {
+  this.$('div').checkbox()
+})

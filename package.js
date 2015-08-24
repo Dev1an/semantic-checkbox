@@ -14,7 +14,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
   api.use(['templating'], 'client');
 
-  api.addFiles(['semantic-checkbox.js', 'semantic-checkbox.html'], 'client');
+  api.addFiles(['semantic-checkbox.html', 'semantic-checkbox.js'], 'client');
 });
 
 Package.onTest(function(api) {
